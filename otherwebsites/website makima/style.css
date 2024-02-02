@@ -1,0 +1,30 @@
+.flex {
+    display: flex;
+    justify-content: center;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    opacity: 40%;
+}
+
+.MakimaIs  {
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-color: rgb(242, 234, 234);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS'
+}
+p {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

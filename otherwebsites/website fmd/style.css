@@ -1,0 +1,60 @@
+/* Ganske detaljert header */
+.header {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    color: #5F5449;
+    font-family: sans-serif;
+    padding: 20px;
+    background-color:#A3A380;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.footer {
+    display: flex;
+    justify-content: left;
+    font-family: sans-serif;
+    background-color: #A3A380;
+    color: #5F5449;
+    padding: 3px;
+    flex-direction: right;
+    gap: 100px;
+}
+/* Bakgrunnsfarge*/
+body {
+    background-color: #EFEBCE;
+    font-family: sans-serif;
+    color: #5F5449;
+}
+/* Alle paragrafer på alle sidene*/
+p {
+    display: flex;
+    font-family: sans-serif;
+    color: #5F5449;
+    justify-content: center;
+    
+}
+/* Navbaren som tok tre år å kode fram */
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 100px;
+    flex-direction: right;
+}
+/* Teksten over bildene */
+.alter {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+/* Bilde med flexbox*/
+.bilde {
+    display: flex;
+    justify-content: center;
+    flex-direction: right;
+    flex-wrap: nowrap;
+    gap: 20px;
+
+}
+

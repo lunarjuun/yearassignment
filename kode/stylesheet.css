@@ -1,0 +1,322 @@
+p, h1, h5, h2, h3 {
+    font-family: "bahnschrift condensed";
+    color: #d3d3d3;
+}
+
+/*
+Section 1 - Footer
+*/
+
+.footer-basic {
+    padding: 40px 0;
+    background-color: #161719;
+    color: #868686;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer-basic li {
+    padding: 0 10px;
+}
+
+.footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+    opacity: 1;
+}
+
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+    transition: 0.5s;
+}
+
+.footer-basic .social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #6b6b6b;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+    transition: 0.5s;
+}
+
+.footer-basic .social>a:hover {
+    opacity: 0.9;
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+}
+
+.footertext {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-family: "bahnschrift";
+}
+
+/* 
+Section 2 - Navbar and Header
+*/
+
+.header {
+    background: url(/diverse/gojogif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo1 {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.logo2 {
+    justify-content: left;
+    display: flex;
+    height: 130px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar .nav-link {
+    color: #6a6a6a;
+    transition: 0.5s;
+    gap: 100px;
+
+}
+
+.navbar .nav-link:hover {
+    color: #d8d8d8;
+    text-decoration: none;
+    gap: 100px;
+    scale: 85%;
+}
+
+
+.list-inline {
+    gap: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+/*
+Section 3 - Alternative Titles 
+*/
+
+h2 {
+    font-family: "bahnschrift";
+    color: white;
+    opacity: 70%;
+    font-style: bold;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+h3 {
+    align-self: center;
+    font-size: x-large;
+    font-style: italic;
+    opacity: 80%;
+}
+
+.titletext {
+    font-size: 400%;
+    padding-top: 10px;
+}
+
+.titleundertitle {
+    font-size: 130%;
+    text-align: auto;
+    padding: 10px;
+}
+
+/*
+
+Section 4 - Content
+
+*/
+
+body {
+    min-height: 110vh;
+    background-color: rgb(46, 41, 54);
+    background-image: linear-gradient(rgb(19, 15, 77), black);
+}
+
+.greeting {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.title {
+    align-items: center;
+    margin-left: 20px;
+    font-size: 7vh;
+}
+
+.content1 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.whoami {
+    font-size: xx-large;
+}
+
+.iama {
+    font-size: x-large;
+}
+
+.socialmedias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    font-style: italic;
+    font-size: x-large;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.aboutme {
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: left;
+    padding: 30px;
+}
+
+.websites {
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    padding: 30px;
+}
+
+.fmd, .lacrosse, .makima, .shinobu {
+    width: 330px;
+    height: 300px;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.fmd:hover, .lacrosse:hover, .makima:hover, .shinobu:hover {
+    scale: 95%;
+    transition: 0.5s;
+    opacity: 90%;
+}
+
+.theartwork1, .theartwork2, .theartwork3 {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    height: 350px;
+    transition: 0.5s;
+}
+
+#drawing {
+    transition: 0.5s;
+}
+
+#drawing:hover {
+    scale: 95%;
+    transition: 0.5s;
+    opacity: 90%;
+}
+
+.padd1, .padd3 {
+    padding-right: 10px;
+}
+
+.padd2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logobasket {
+    height: 600px;
+    align-self: center;
+}
+
+.picbrother, .pichassan, .picdog {
+    height: 300px;
+    align-self: center;
+    margin-right: 40px;
+}
+
+.gojosatoru {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+    
+}
+
+.aboutmephotos {
+    display: flex;
+    justify-content: center;
+}
+
+.skyscraper {
+    padding: 40px;
+    height: 700px;
+}
+
+.introvideo {
+    object-fit: cover;
+    width: 600px;display: flex;
+}
+
+.blackmetal {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    height: 400px;
+}
+
+.CVthing {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    height: 400px;
+    padding-left: 300px;
+}
